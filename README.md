@@ -2,6 +2,15 @@ Generate secret key:
 
 ``openssl rand -base64 32``
 
+# How to start a new FARM Stack Project
+
+## Create project structure
+
+/<root project folder>
+    /backend
+    /frontend
+
+
 
 # How to create a venv
 
