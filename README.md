@@ -52,6 +52,23 @@ py -3 -m venv .venv
 python3 -m venv .venv
 ```
 
+start venv
+
+```
+.\.venv\Scripts\Activate.ps1
+```
+
+```
+source .venv/bin/activate
+```
+
+install dependencies
+
+```
+pip install -r requirements.txt
+```
+
+
 # Generate secret key:
 
 ``openssl rand -base64 32``
