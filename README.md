@@ -9,19 +9,34 @@ clone https://github/[REPO URL]
 ```
 
 git separate branch (optional but recommended)
-`git checkout -b your-branch-name`
+
+```
+git checkout -b your-branch-name
+````
 
 make changes and add
-`git add .`
+
+```
+git add .
+```
 
 commit changes
-`git commit -m "Your commit message here`
+
+```
+git commit -m "Your commit message here
+```
 
 pull latest changes
-`git pull origin main`
+
+```
+git pull origin main
+```
 
 push branch
-`git push origin your-branch-name`
+
+```
+git push origin your-branch-name
+```
 
 # Generate secret key:
 
