@@ -68,6 +68,10 @@ install dependencies
 pip install -r requirements.txt
 ```
 
+## MongoDB connection
+
+
+
 
 # Generate secret key:
 
