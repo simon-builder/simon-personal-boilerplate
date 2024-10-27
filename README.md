@@ -3,6 +3,7 @@ This README.md is a journaling of noteworthy stuff i came across that i want to 
 # Step-by-step when cloning project
 
 clone repo
+
 `git clone https://github/[REPO URL]`
 
 git separate branch (optional but recommended)
