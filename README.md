@@ -1,3 +1,7 @@
+# Step-by-step when cloning project
+
+`git clone https://github/[REPO URL]
+
 Generate secret key:
 
 ``openssl rand -base64 32``
