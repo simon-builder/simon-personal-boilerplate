@@ -1,8 +1,26 @@
+This README.md is a journaling of noteworthy stuff i came across that i want to use in the future
+
 # Step-by-step when cloning project
 
-`git clone https://github/[REPO URL]
+clone repo
+`git clone https://github/[REPO URL]`
 
-Generate secret key:
+git separate branch (optional but recommended)
+`git checkout -b your-branch-name`
+
+make changes and add
+`git add .`
+
+commit changes
+`git commit -m "Your commit message here`
+
+pull latest changes
+`git pull origin main`
+
+push branch
+`git push origin your-branch-name`
+
+# Generate secret key:
 
 ``openssl rand -base64 32``
 
