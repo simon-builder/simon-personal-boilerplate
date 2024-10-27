@@ -4,7 +4,9 @@ This README.md is a journaling of noteworthy stuff i came across that i want to 
 
 clone repo
 
-`git clone https://github/[REPO URL]`
+```
+clone https://github/[REPO URL]
+```
 
 git separate branch (optional but recommended)
 `git checkout -b your-branch-name`
