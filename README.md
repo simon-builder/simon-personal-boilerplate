@@ -48,7 +48,9 @@ create venv
 py -3 -m venv .venv
 ```
 
-``python3 -m venv .venv`` (Mac)
+```MacOS
+python3 -m venv .venv
+```
 
 # Generate secret key:
 
