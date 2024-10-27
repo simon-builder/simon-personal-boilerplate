@@ -18,6 +18,7 @@ Generate secret key:
 - Create a virtual env
 
 ``py -3 -m venv .venv`` (Windows)
+
 ``python3 -m venv .venv`` (Mac)
 
 ## Install FASTAPI and other packages
@@ -28,4 +29,5 @@ Generate secret key:
 
 Run venv
 ``.\venv\Scripts\Activate.ps1`` (Win)
+
 ``source venv/bin/activate`` (Mac)
