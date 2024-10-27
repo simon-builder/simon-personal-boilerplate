@@ -38,6 +38,18 @@ push branch
 git push origin your-branch-name
 ```
 
+create pull request on github (web) and merge
+
+create .env file (if needed)
+
+create venv
+
+```Windows
+py -3 -m venv .venv
+```
+
+``python3 -m venv .venv`` (Mac)
+
 # Generate secret key:
 
 ``openssl rand -base64 32``
