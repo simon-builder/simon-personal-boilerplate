@@ -6,17 +6,25 @@ Generate secret key:
 
 ## Create project structure
 
+```
 /<root project folder>
     /backend
     /frontend
+```
 
+## Create virtual environment in backend
 
+- Navigate to backend folder
+- Create a virtual env
 
-# How to create a venv
+``py -3 -m venv .venv`` (Windows)
+``python3 -m venv .venv`` (Mac)
 
-Build a venv in py
-``py -3 -m venv venv`` (Windows)
-``python3 -m venv <name>`` (Mac)
+## Install FASTAPI and other packages
+
+- Install any packages you need for your project with
+
+``pip install FastAPI[Standard] <other packages>``
 
 Run venv
 ``.\venv\Scripts\Activate.ps1`` (Win)
