@@ -1,5 +1,9 @@
 This README.md is a journaling of noteworthy stuff i came across that i want to use in the future
 
+```
+docker-compose up --build
+```
+
 # Step-by-step when cloning project
 
 clone repo
