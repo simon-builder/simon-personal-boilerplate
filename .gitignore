@@ -16,6 +16,7 @@
 # *.pyd
 # env/
 # venv/
+# .venv/
 
 # # Logs and temporary files
 # *.log
