@@ -8,6 +8,20 @@
 # npm-debug.log*
 # yarn-debug.log*
 # yarn-error.log*
+# /.pnp
+# .pnp.*
+# .yarn/*
+# !.yarn/patches
+# !.yarn/plugins
+# !.yarn/releases
+# !.yarn/versions
+
+# # next.js
+# .next/
+# out/
+
+# # testing
+# coverage/
 
 # # Python
 # __pycache__
@@ -30,9 +44,7 @@
 # *.sublime-workspace
 
 # # Environment variables
-# .env
-# .env.local
-# .env.*.local
+# .env*
 
 # # Build output
 # dist/
@@ -42,6 +54,7 @@
 
 # # macOS
 # .DS_Store
+# *.pem
 
 # # Windows
 # *.exe
@@ -51,3 +64,10 @@
 
 # # Linux
 # *.out
+
+# # vercel
+# .vercel
+
+# # typescript
+# *.tsbuildinfo
+# next-env.d.ts
