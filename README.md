@@ -1,5 +1,29 @@
 This README.md is a journaling of noteworthy stuff i came across that i want to use in the future
 
+# general flow of ci cd pipeline with docker
+
+ci
+1. setup triggers for ci
+2. set env var if needed
+3. two jobs (a) build (b) deploy
+4. build
+    a. build docker image of frontend and backend (use actions from github marketplace if avail)
+    b. use a hub (docker hub, github registry/pkg) for private images
+5. deploy
+    a. call hooks on platform (or inftrastructure?)
+
+
+# best practice for setting up docker in a full stack app
+
+- Create Dockerfile in each backend and frontend folder
+- Dockerfile general config flow
+    - 1 install deps
+    - 2 build the app (e.g. npm run dev or npm run build)
+    - 3 copy files for the image (from prev step)
+        - optionally, add and use a different user for more security
+    - 4 expose port, ip and cmd
+
+
 ```
 docker-compose up --build
 ```
