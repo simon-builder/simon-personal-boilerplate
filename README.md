@@ -2,7 +2,7 @@ This README.md is a journaling of noteworthy stuff i came across that i want to 
 
 # general flow of ci cd pipeline with docker
 
-ci
+cicd
 1. setup triggers for ci
 2. set env var if needed
 3. two jobs (a) build (b) deploy
