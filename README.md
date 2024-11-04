@@ -3,7 +3,35 @@ This README.md is a journaling of noteworthy stuff i came across that i want to 
 # How to contribute to a repo
 
 ## Fork repo, clone repo to machine, create a separate branch and update files and push branch to your repo
-Add instructions and cmd
+
+1. fork repo
+2. clone repo
+```
+git clone https://github.com/your-username/repo-name.git
+```
+3. create a new branch
+```
+git checkout -b update-readme
+```
+4. update files and commit files
+```
+git add .
+git commit -m "message"
+```
+5. push to my fork
+```
+git push origin update-readme
+```
+6. open a pull request on the original repo and add desc
+
+## Link fork to original repo
+```
+git remote add upstream https://github.com/original-owner/original-repo.git
+git fetch upstream
+git checkout main
+git merge upstream/main
+git push origin main
+```
 
 # general flow of ci cd pipeline with docker
 
