@@ -1,5 +1,10 @@
 This README.md is a journaling of noteworthy stuff i came across that i want to use in the future
 
+# How to contribute to a repo
+
+## Fork repo, clone repo to machine, create a separate branch and update files and push branch to your repo
+Add instructions and cmd
+
 # general flow of ci cd pipeline with docker
 
 cicd
