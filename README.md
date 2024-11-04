@@ -1,5 +1,10 @@
 This README.md is a journaling of noteworthy stuff i came across that i want to use in the future
 
+Create venv anaconda
+```
+conda create -n my-venv-name python=3.10 -y
+```
+
 # How to contribute to a repo
 
 ## Fork repo, clone repo to machine, create a separate branch and update files and push branch to your repo
